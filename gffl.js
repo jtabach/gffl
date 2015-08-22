@@ -38,7 +38,7 @@ $(document).ready(function(){
     $('#pMM').click(function(){
         if($('#profMM').css('display') == 'none'){
             $('#profMM').slideDown();
-            $('#pAC > h3').html("Hide Player Profile");
+            $('#pMM > h3').html("Hide Player Profile");
         }else{
             $('#profMM').slideUp();
             $('#pMM > h3').html("Show Player Profile");   
@@ -47,7 +47,7 @@ $(document).ready(function(){
     $('#pEY').click(function(){
         if($('#profEY').css('display') == 'none'){
             $('#profEY').slideDown();
-            $('#pAC > h3').html("Hide Player Profile");
+            $('#pEY > h3').html("Hide Player Profile");
         }else{
             $('#profEY').slideUp();
             $('#pEY > h3').html("Show Player Profile");   
@@ -108,7 +108,7 @@ $(document).ready(function(){
         }
         });
     
-    $('li').hover(
+    $('.top_links').hover(
         function(){
             $(this).addClass('highlight');
         },
